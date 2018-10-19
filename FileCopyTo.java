@@ -51,7 +51,6 @@ public class FileCopyTo {
 	}
 
 	public Boolean FileCopyToTarget (File source, File target, String ext) throws IOException {
-		if (source == null || target == null || ext == null) return false;
 		List<String> check = new ArrayList<String>();
 		List<String> buf = new ArrayList<String>();
 		File[] paths;
